@@ -32,6 +32,9 @@ def main():
     if st.button("Calculate GPA"):
         gpa = calculate_gpa(grades, credit_hours, previous_cgpa)
         st.write(f"Your GPA is: {gpa:.2f}")
+    
+    st.write("<p style='text-align: center;'>Crafted with fervor by 2D🤓</p>", unsafe_allow_html=True)
+
 
 if __name__ == "__main__":
     main()
