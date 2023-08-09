@@ -33,6 +33,10 @@ def main():
         gpa = calculate_gpa(grades, credit_hours, previous_cgpa)
         st.write(f"Your GPA is: {gpa:.2f}")
     
+    st.sidebar.title("Similar Applications")
+    st.sidebar.markdown("[CGPA Calculator](https://cgpacalculator-2d.streamlit.app/)")
+    st.sidebar.markdown("[Grades Predictor](https://gradepredictor.streamlit.app/)")
+
     st.write("<p style='text-align: center;'>Crafted with fervor by 2D🤓</p>", unsafe_allow_html=True)
 
 
